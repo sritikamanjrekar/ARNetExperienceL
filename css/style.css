@@ -492,7 +492,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fff;
 }
 #fh5co-featured-menu .fh5co-item.margin_top, #fh5co-gallery .fh5co-item.margin_top, #fh5co-reservation-form .fh5co-item.margin_top {
-  margin-top: 150px;
+  margin-top: 0px;
 }
 @media screen and (max-width: 480px) {
   #fh5co-featured-menu .fh5co-item.margin_top, #fh5co-gallery .fh5co-item.margin_top, #fh5co-reservation-form .fh5co-item.margin_top {
@@ -708,11 +708,22 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-portfolio,
 #fh5co-blog,
 #fh5co-content-section,
-#fh5co-contact,
-#fh5co-footer {
+#fh5co-contact {
   padding: 7em 0;
   clear: both;
 }
+
+#fh5co-footer {
+  /* padding: 2em 0; */
+  padding-top: 1em;
+  padding-left: 0em;
+  padding-bottom: 0em;
+  padding-right: 0em;
+  clear: both;
+}
+
+
+
 @media screen and (max-width: 768px) {
   #fh5co-slider,
   #fh5co-about,
@@ -1266,9 +1277,12 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-footer .fh5co-footer-links li a {
   color: rgba(0, 0, 0);
   text-decoration: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 #fh5co-footer .fh5co-footer-links li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #ea272d;
 }
 #fh5co-footer .fh5co-widget {
@@ -1771,7 +1785,7 @@ textarea {
 }
 
 .row-pb-md {
-  padding-bottom: 4em !important;
+  padding-bottom: 0em !important;
 }
 
 .row-pb-sm {
